@@ -1,9 +1,10 @@
 {
   "devDependencies": {
-    "eslint": "8.44.0"
+    "eslint": "8.44.0",
+    "eslint-plugin-react": "^7.32.2"
+  },
+  "scripts": {
+    "lint:js": "eslint src/**/*.js",
+    "lint": "npm run lint:js"
   }
- "scripts": {
- "lint:js": "eslint src/**/*.js",
- "lint": "npm run lint:js"
- }
 }
